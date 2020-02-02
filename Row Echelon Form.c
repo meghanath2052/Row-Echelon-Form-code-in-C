@@ -1,12 +1,9 @@
 /*Program to Convert A matrix to Row Echelon Form*/
-/*Assignment 1*/
-/*Written by Chavva Bala Meghanath Reddy*/
-/*USN:- 01JST19CB009*/
 #include<stdio.h>
 int main()
 {
 	int iI,iJ,iK;/*For Loop iterations*/
-	int iM,iN,iStep;/*For Rows and columns*/
+	int iM,iN,iStep;/*For Rows and columns and Step counter*/
 	int iP,iQ;/*For rows and columns to output the steps*/
 	int iR1,iR2;/*For Row Exchange*/
 	float fArray[50][50];/*For Array Declaration*/
